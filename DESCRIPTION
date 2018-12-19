@@ -1,7 +1,7 @@
 Package: bpbounds
 Title: Nonparametric Bounds for the Average Causal Effect Due to Balke
         and Pearl and Extensions
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(person("Tom", "Palmer", 
     email = "tom.palmer@lancaster.ac.uk", role = c("aut", "cre"),
     comment = c(ORCID = "0000-0003-4655-4511")),
@@ -24,17 +24,17 @@ Imports: methods
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-Suggests: dplyr, testthat, knitr, rmarkdown, tidyr
+Suggests: dplyr, testthat, knitr, rmarkdown, tidyr, shiny
 VignetteBuilder: knitr
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.1
 URL: https://github.com/remlapmot/bpbounds
 BugReports: https://github.com/remlapmot/bpbounds/issues
 NeedsCompilation: no
-Packaged: 2018-11-09 17:42:31 UTC; remlapmot
+Packaged: 2018-12-19 15:55:37 UTC; palmertm
 Author: Tom Palmer [aut, cre] (<https://orcid.org/0000-0003-4655-4511>),
   Roland Ramsahai [aut],
   Vanessa Didelez [aut] (<https://orcid.org/0000-0001-8587-7706>),
   Nuala Sheehan [aut]
 Maintainer: Tom Palmer <tom.palmer@lancaster.ac.uk>
 Repository: CRAN
-Date/Publication: 2018-11-18 19:00:06 UTC
+Date/Publication: 2018-12-19 16:20:06 UTC
