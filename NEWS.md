@@ -1,3 +1,8 @@
+# bpbounds 0.1.4
+
+* Fixed typo in vignette.
+* Changed email address.
+
 # bpbounds 0.1.3
 
 * Added Nuala's ORCID to DESCRIPTION.
