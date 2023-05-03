@@ -1,9 +1,9 @@
 ---
-title: "Nonparametric bounds for the average causal effect: `bpbounds` examples"
+title: "Nonparametric bounds for the average causal effect: bpbounds examples"
 author:
 - name: "Tom Palmer"
-  affiliation: "Lancaster University"
-  email: tom.palmer@lancaster.ac.uk
+  affiliation: "MRC IEU and Population Health Sciences, Bristol Medical School, University of Bristol"
+  email: tom.palmer@bristol.ac.uk
 - name: "Roland Ramsahai"
 - name: "Vanessa Didelez"
   affiliation: "Leibniz BIPS and University of Bremen"
@@ -16,7 +16,7 @@ output:
     fig_caption: yes
 bibliography: bibliography.bib
 vignette: >
-  %\VignetteIndexEntry{Nonparametric bounds for the average causal effect: `bpbounds` examples}
+  %\VignetteIndexEntry{Nonparametric bounds for the average causal effect: bpbounds examples}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -26,6 +26,12 @@ knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>"
 )
+if (!requireNamespace("dplyr", quietly = TRUE)) {
+  install.packages("dplyr", repos = "https://cloud.r-project.org/")
+}
+if (!requireNamespace("tidyr", quietly = TRUE)) {
+  install.packages("tidyr", repos = "https://cloud.r-project.org/")
+}
 ```
 
 ## Introduction

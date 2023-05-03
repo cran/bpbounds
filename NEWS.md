@@ -1,3 +1,11 @@
+# bpbounds 0.1.5
+
+* Additional email address and affiliation edits.
+* Remove `LazyData` from `DESCRIPTION`.
+* Update **roxygen2** version number in `DESCRIPTION`.
+* Simplify NAMESPACE by not importing functions from other packages.
+* Improve accompanying pkgdown site
+
 # bpbounds 0.1.4
 
 * Fixed typo in vignette.
